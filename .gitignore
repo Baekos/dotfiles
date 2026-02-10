@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Tmux plugins (managed by TPM)
+tmux/plugins/*
+!tmux/plugins/.gitkeep
+
+# Neovim lazy-lock (auto-generated)
+nvim/lazy-lock.json

@@ -1,0 +1,10 @@
+font-family = IosevkaTerm Nerd Font Mono
+font-size = 16
+font-feature = -liga
+clipboard-read = allow
+clipboard-write = allow
+theme = catppuccin-mocha
+cursor-invert-fg-bg = true
+background-opacity = .8
+background-blur = 20
+keybind = global:cmd+grave_accent=toggle_quick_terminal
