@@ -1,6 +1,10 @@
 # Prioritize Homebrew binaries
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
+# Python convenience aliases
+alias python="python3"
+alias pip="pip3"
+
 # Opam (OCaml package manager)
 [[ ! -r "$HOME/.opam/opam-init/init.zsh" ]] || source "$HOME/.opam/opam-init/init.zsh" > /dev/null 2>&1
 
@@ -38,6 +42,20 @@ alias lta="eza -lTag --icons"
 alias lta1="eza -lTag --level=1 --icons"
 alias lta2="eza -lTag --level=2 --icons"
 alias lta3="eza -lTag --level=3 --icons"
+
+# Cat alias
+alias cat="bat --paging=never"
+
+# Grep alias
+alias grep='rg --color=auto' # ripgrep
+
+# Keep originals accessible if needed
+alias oldcat="/bin/cat"
+alias oldgrep="/usr/bin/grep"
+
+# Keep originals accessible if needed
+alias oldcat="/bin/cat"
+alias oldgrep="/usr/bin/grep"
 
 # FZF (fuzzy finder)
 source <(fzf --zsh)

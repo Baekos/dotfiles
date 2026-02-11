@@ -45,6 +45,7 @@ ln -sf "$HOME/dotfiles/ghostty" "$HOME/.config/ghostty"
 ln -sf "$HOME/dotfiles/starship/starship.toml" "$HOME/.config/starship.toml"
 ln -sf "$HOME/dotfiles/nvim" "$HOME/.config/nvim"
 ln -sf "$HOME/dotfiles/tmux" "$HOME/.config/tmux"
+ln -sf "$HOME/dotfiles/bat" "$HOME/.config/bat"
 
 # Install TPM if not present
 if [ ! -d "$HOME/.config/tmux/plugins/tpm" ]; then
