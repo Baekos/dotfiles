@@ -1,7 +1,5 @@
 # Bakos Dotfiles
 
-My personal development environment configuration.
-
 ## Setup
 
 **Quick install:**
